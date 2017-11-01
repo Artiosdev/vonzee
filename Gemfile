@@ -30,7 +30,7 @@ gem 'letter_opener', group: :development
 # add envrironment variables for stripe keys for development only
 gem 'dotenv-rails', :groups => [:development, :test]
 
-# set private keys for development and production
+# set private keys for development and production s
 gem 'figaro'
 
 
