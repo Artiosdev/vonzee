@@ -25,6 +25,9 @@ gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 # add twitter bootstrap
 gem 'bootstrap-sass'
 
+# add envrironment variables for stripe keys
+gem 'dotenv-rails', :groups => [:development, :test]
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
