@@ -27,8 +27,12 @@ gem 'bootstrap-sass'
 
 gem 'letter_opener', group: :development
 
-# add envrironment variables for stripe keys
+# add envrironment variables for stripe keys for development only
 gem 'dotenv-rails', :groups => [:development, :test]
+
+# set private keys for development and production
+gem 'figaro'
+
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
