@@ -13,6 +13,8 @@ gem 'rails', '~> 5.1.3'
 # sqlite3 for development and test database
 gem 'sqlite3', group: [:development, :test]
 
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+
 # postgress for production database
 gem 'pg', group: :production
 

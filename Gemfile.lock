@@ -26,6 +26,12 @@ GIT
       responders
 
 GIT
+  remote: https://github.com/codahale/bcrypt-ruby.git
+  revision: f2db689ba567d1a018f4dacb1ccf909adc93e887
+  specs:
+    bcrypt (3.1.11)
+
+GIT
   remote: https://github.com/stripe/stripe-ruby
   revision: ffb6ea4a31d7b7ca5121fea11d084b3a947af14d
   specs:
@@ -83,7 +89,6 @@ GEM
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
-    bcrypt (3.1.11-x86-mingw32)
     bindex (0.5.0)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -282,6 +287,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
+  bcrypt!
   bootstrap-sass
   byebug
   capybara (~> 2.13)
