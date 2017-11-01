@@ -30,9 +30,15 @@ gem 'letter_opener', group: :development
 # add envrironment variables for stripe keys for development only
 gem 'dotenv-rails', :groups => [:development, :test]
 
-# set private keys for development and production s
+# securely set private keys for development and production s
 gem 'figaro'
 
+#activeadmin for admin system
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+# devise for user authentication
+gem 'devise'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
