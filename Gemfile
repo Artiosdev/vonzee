@@ -25,6 +25,8 @@ gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 # add twitter bootstrap
 gem 'bootstrap-sass'
 
+gem 'letter_opener', group: :development
+
 # add envrironment variables for stripe keys
 gem 'dotenv-rails', :groups => [:development, :test]
 
